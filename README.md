@@ -7,6 +7,10 @@
 
 By Weng Fei Fung (Weng). 
 
-Prompt-engineered the vibe-coding workflow, creating a text-to-image AI app. For this repo, we improve code generation quality through context-truncation mitigation techniques and controlling for inherent weaknesses/biases that break large codebases in the Gemini 3 Flash Preview model.
+Prompt-engineered the vibe-coding workflow, creating a text-to-image AI app. For this repo, we improve code generation quality through **context-truncation mitigation techniques** and **controlling for inherent weaknesses/biases that break large codebases** in the Gemini 3 Flash Preview model. Please refer to my written notes at _prompt-engineering-the-vibe-code/ and git history, to see an optimized vibe coding in action.
 
-This is part one of a prompt-engineering series focused on improving the vibe-coding workflow. The goal is to ship faster, build more complete MVPs and features, and keep strong human-in-the-loop oversight alongside AI generation. Rather than relying on “vibe coding” alone, Weng applies prompt-engineering techniques to make the process more reliable and produce higher-quality code. And instead of a multi-agent framework, Weng sticks to a single-agent approach—because the AI isn’t quite there yet—and focuses on raising the quality of the generated output.
+If you look at the Git history, you’ll see the MVP was essentially one-shot, then I steered the AI through targeted bug fixes. An issue—like the image corruption problem—weren’t solvable by the model and required manual edits. 
+
+That workflow reflects what I see as the modern developer’s advantage: using AI to rapidly generate a solid first prototype, then knowing when to keep refining with AI versus switching to hands-on engineering to avoid technical debt and keep the app scalable and secure.
+
+This is **Part 1** of a prompt-engineering series focused on improving the vibe-coding workflow. The goal is to ship faster, build more complete MVPs and features, and keep strong human-in-the-loop oversight alongside AI generation. Rather than relying on “vibe coding” alone, Weng applies prompt-engineering techniques to make the process more reliable and produce higher-quality code. And instead of a multi-agent framework, Weng sticks to a single-agent approach—because the AI isn’t quite there yet—and focuses on raising the quality of the generated output.
